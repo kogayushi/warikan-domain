@@ -20,8 +20,7 @@ public class 参加者 {
     if (this == o) return true;
     if (!(o instanceof 参加者)) return false;
     参加者 参加者 = (参加者) o;
-    return _名前.equals(参加者._名前) &&
-            _支払区分 == 参加者._支払区分;
+    return _名前.equals(参加者._名前) && _支払区分 == 参加者._支払区分;
   }
 
   @Override
