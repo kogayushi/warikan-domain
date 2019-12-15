@@ -14,4 +14,8 @@ public class 支払区分比重設定 {
     map.put(支払区分.少なめ, 少なめのための支払い区分);
     this.value = map;
   }
+
+  public 支払比重 支払比重を求める(支払区分 _支払区分) {
+    return this.value.get(_支払区分);
+  }
 }
