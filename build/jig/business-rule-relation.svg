@@ -1,19 +1,220 @@
-<svg width="232px" height="136px"
- viewBox="0.00 0.00 231.84 135.82" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="graph0" class="graph" transform=" rotate(0) translate(4 131.8201)">
+<svg width="663px" height="438px"
+ viewBox="0.00 0.00 663.00 437.82" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="graph0" class="graph" transform=" rotate(0) translate(4 433.82)">
 <title>%3</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-131.8201 227.8442,-131.8201 227.8442,4 -4,4"/>
-<text text-anchor="middle" x="111.9221" y="-15.62" font-family="Times,serif" font-size="14.00" fill="#000000">ビジネスルール関連図 [2019.12.1]</text>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-433.82 659,-433.82 659,4 -4,4"/>
+<text text-anchor="middle" x="327.5" y="-15.62" font-family="Times,serif" font-size="14.00">ビジネスルール関連図 [2019.12.1]</text>
 <g id="clust1" class="cluster">
+<title>cluster_warikan.domain.model.members</title>
+<polygon fill="lemonchiffon" stroke="#eedd82" stroke-width="2" points="8,-182.82 8,-421.82 235,-421.82 235,-182.82 8,-182.82"/>
+<text text-anchor="middle" x="121.5" y="-406.62" font-family="Times,serif" font-size="14.00">members</text>
+</g>
+<g id="clust2" class="cluster">
 <title>cluster_warikan.domain.model</title>
-<polygon fill="#fffacd" stroke="#eedd82" stroke-width="2" points="39.4221,-38.82 39.4221,-119.8201 184.4221,-119.8201 184.4221,-38.82 39.4221,-38.82"/>
-<text text-anchor="middle" x="111.9221" y="-104.6201" font-family="Times,serif" font-size="14.00" fill="#000000">warikan.domain.model</text>
+<polygon fill="lemonchiffon" stroke="#eedd82" stroke-width="2" points="243,-38.82 243,-421.82 647,-421.82 647,-38.82 243,-38.82"/>
+<text text-anchor="middle" x="445" y="-406.62" font-family="Times,serif" font-size="14.00">warikan.domain.model</text>
+</g>
+<!-- warikan.domain.model.members.Member -->
+<g id="node1" class="node">
+<title>warikan.domain.model.members.Member</title>
+<polygon fill="#eedd82" stroke="black" points="159.93,-312.82 96.07,-312.82 96.07,-269.82 159.93,-269.82 159.93,-312.82"/>
+<text text-anchor="middle" x="128" y="-297.62" font-family="Times,serif" font-size="14.00">参加者</text>
+<text text-anchor="middle" x="128" y="-276.62" font-family="Times,serif" font-size="14.00">Member</text>
+</g>
+<!-- warikan.domain.model.members.MemberName -->
+<g id="node3" class="node">
+<title>warikan.domain.model.members.MemberName</title>
+<polygon fill="#eedd82" stroke="black" points="112.36,-233.82 15.64,-233.82 15.64,-190.82 112.36,-190.82 112.36,-233.82"/>
+<text text-anchor="middle" x="64" y="-218.62" font-family="Times,serif" font-size="14.00">参加者名</text>
+<text text-anchor="middle" x="64" y="-197.62" font-family="Times,serif" font-size="14.00">MemberName</text>
+</g>
+<!-- warikan.domain.model.members.Member&#45;&gt;warikan.domain.model.members.MemberName -->
+<g id="edge14" class="edge">
+<title>warikan.domain.model.members.Member&#45;&gt;warikan.domain.model.members.MemberName</title>
+<path fill="none" stroke="black" d="M110.85,-269.69C103.75,-261.14 95.39,-251.09 87.72,-241.86"/>
+<polygon fill="black" stroke="black" points="90.28,-239.46 81.2,-234.01 84.9,-243.94 90.28,-239.46"/>
+</g>
+<!-- warikan.domain.model.members.SecretaryType -->
+<g id="node4" class="node">
+<title>warikan.domain.model.members.SecretaryType</title>
+<polygon fill="#eedd82" stroke="black" points="227.14,-233.82 130.86,-233.82 130.86,-190.82 227.14,-190.82 227.14,-233.82"/>
+<text text-anchor="middle" x="179" y="-218.62" font-family="Times,serif" font-size="14.00">幹事区分</text>
+<text text-anchor="middle" x="179" y="-197.62" font-family="Times,serif" font-size="14.00">SecretaryType</text>
+</g>
+<!-- warikan.domain.model.members.Member&#45;&gt;warikan.domain.model.members.SecretaryType -->
+<g id="edge15" class="edge">
+<title>warikan.domain.model.members.Member&#45;&gt;warikan.domain.model.members.SecretaryType</title>
+<path fill="none" stroke="black" d="M141.67,-269.69C147.21,-261.31 153.72,-251.49 159.73,-242.42"/>
+<polygon fill="black" stroke="black" points="162.69,-244.28 165.3,-234.01 156.86,-240.42 162.69,-244.28"/>
+</g>
+<!-- warikan.domain.model.members.Members -->
+<g id="node2" class="node">
+<title>warikan.domain.model.members.Members</title>
+<polygon fill="#eedd82" stroke="black" points="208.7,-391.82 83.3,-391.82 83.3,-348.82 208.7,-348.82 208.7,-391.82"/>
+<text text-anchor="middle" x="146" y="-376.62" font-family="Times,serif" font-size="14.00">メンバーグループ</text>
+<text text-anchor="middle" x="146" y="-355.62" font-family="Times,serif" font-size="14.00">Members</text>
+</g>
+<!-- warikan.domain.model.members.Members&#45;&gt;warikan.domain.model.members.Member -->
+<g id="edge16" class="edge">
+<title>warikan.domain.model.members.Members&#45;&gt;warikan.domain.model.members.Member</title>
+<path fill="none" stroke="black" d="M141.18,-348.69C139.32,-340.74 137.16,-331.5 135.13,-322.82"/>
+<polygon fill="black" stroke="black" points="138.52,-321.95 132.84,-313.01 131.71,-323.55 138.52,-321.95"/>
+</g>
+<!-- warikan.domain.model.members.Members&#45;&gt;warikan.domain.model.members.SecretaryType -->
+<g id="edge17" class="edge">
+<title>warikan.domain.model.members.Members&#45;&gt;warikan.domain.model.members.SecretaryType</title>
+<path fill="none" stroke="black" d="M156.1,-348.6C160.78,-338.12 165.96,-325.05 169,-312.82 174.6,-290.25 177.08,-264.07 178.17,-244.22"/>
+<polygon fill="black" stroke="black" points="181.67,-244.35 178.63,-234.2 174.67,-244.02 181.67,-244.35"/>
+</g>
+<!-- warikan.domain.model.支払比重 -->
+<g id="node5" class="node">
+<title>warikan.domain.model.支払比重</title>
+<polygon fill="#eedd82" stroke="black" points="599,-230.32 527,-230.32 527,-194.32 599,-194.32 599,-230.32"/>
+<text text-anchor="middle" x="563" y="-211.62" font-family="Times,serif" font-size="14.00">支払比重</text>
+</g>
+<!-- warikan.domain.model.請求金額 -->
+<g id="node6" class="node">
+<title>warikan.domain.model.請求金額</title>
+<polygon fill="#eedd82" stroke="black" points="343,-230.32 271,-230.32 271,-194.32 343,-194.32 343,-230.32"/>
+<text text-anchor="middle" x="307" y="-211.62" font-family="Times,serif" font-size="14.00">請求金額</text>
+</g>
+<!-- warikan.domain.model.参加者支払い金額 -->
+<g id="node7" class="node">
+<title>warikan.domain.model.参加者支払い金額</title>
+<polygon fill="#eedd82" stroke="black" points="509,-230.32 381,-230.32 381,-194.32 509,-194.32 509,-230.32"/>
+<text text-anchor="middle" x="445" y="-211.62" font-family="Times,serif" font-size="14.00">参加者支払い金額</text>
+</g>
+<!-- warikan.domain.model.参加者 -->
+<g id="node12" class="node">
+<title>warikan.domain.model.参加者</title>
+<polygon fill="#eedd82" stroke="black" points="391,-154.82 333,-154.82 333,-118.82 391,-118.82 391,-154.82"/>
+<text text-anchor="middle" x="362" y="-136.12" font-family="Times,serif" font-size="14.00">参加者</text>
+</g>
+<!-- warikan.domain.model.参加者支払い金額&#45;&gt;warikan.domain.model.参加者 -->
+<g id="edge1" class="edge">
+<title>warikan.domain.model.参加者支払い金額&#45;&gt;warikan.domain.model.参加者</title>
+<path fill="none" stroke="black" d="M425.75,-194.27C414.83,-184.6 400.99,-172.35 389,-161.73"/>
+<polygon fill="black" stroke="black" points="391.24,-159.04 381.43,-155.03 386.6,-164.28 391.24,-159.04"/>
+</g>
+<!-- warikan.domain.model.支払金額 -->
+<g id="node13" class="node">
+<title>warikan.domain.model.支払金額</title>
+<polygon fill="#eedd82" stroke="black" points="481,-154.82 409,-154.82 409,-118.82 481,-118.82 481,-154.82"/>
+<text text-anchor="middle" x="445" y="-136.12" font-family="Times,serif" font-size="14.00">支払金額</text>
+</g>
+<!-- warikan.domain.model.参加者支払い金額&#45;&gt;warikan.domain.model.支払金額 -->
+<g id="edge2" class="edge">
+<title>warikan.domain.model.参加者支払い金額&#45;&gt;warikan.domain.model.支払金額</title>
+<path fill="none" stroke="black" d="M445,-194.27C445,-185.62 445,-174.89 445,-165.11"/>
+<polygon fill="black" stroke="black" points="448.5,-165.03 445,-155.03 441.5,-165.03 448.5,-165.03"/>
+</g>
+<!-- warikan.domain.model.幹事 -->
+<g id="node8" class="node">
+<title>warikan.domain.model.幹事</title>
+<polygon fill="#eedd82" stroke="black" points="404,-388.32 350,-388.32 350,-352.32 404,-352.32 404,-388.32"/>
+<text text-anchor="middle" x="377" y="-369.62" font-family="Times,serif" font-size="14.00">幹事</text>
+</g>
+<!-- warikan.domain.model.幹事&#45;&gt;warikan.domain.model.支払比重 -->
+<g id="edge6" class="edge">
+<title>warikan.domain.model.幹事&#45;&gt;warikan.domain.model.支払比重</title>
+<path fill="none" stroke="black" d="M393.38,-352.31C413.46,-331.82 448.9,-296.79 482,-269.82 496.42,-258.07 513.16,-246.13 527.67,-236.28"/>
+<polygon fill="black" stroke="black" points="530.03,-238.91 536.38,-230.43 526.12,-233.1 530.03,-238.91"/>
+</g>
+<!-- warikan.domain.model.幹事&#45;&gt;warikan.domain.model.請求金額 -->
+<g id="edge7" class="edge">
+<title>warikan.domain.model.幹事&#45;&gt;warikan.domain.model.請求金額</title>
+<path fill="none" stroke="black" d="M363.68,-352.28C355.7,-341.44 345.81,-326.86 339,-312.82 327.6,-289.32 318.91,-260.8 313.48,-240.33"/>
+<polygon fill="black" stroke="black" points="316.81,-239.24 310.94,-230.42 310.03,-240.98 316.81,-239.24"/>
+</g>
+<!-- warikan.domain.model.飲み会 -->
+<g id="node9" class="node">
+<title>warikan.domain.model.飲み会</title>
+<polygon fill="#eedd82" stroke="black" points="406,-309.32 348,-309.32 348,-273.32 406,-273.32 406,-309.32"/>
+<text text-anchor="middle" x="377" y="-290.62" font-family="Times,serif" font-size="14.00">飲み会</text>
+</g>
+<!-- warikan.domain.model.幹事&#45;&gt;warikan.domain.model.飲み会 -->
+<g id="edge8" class="edge">
+<title>warikan.domain.model.幹事&#45;&gt;warikan.domain.model.飲み会</title>
+<path fill="none" stroke="black" d="M371.28,-352.23C370.25,-342.66 369.99,-330.5 370.51,-319.64"/>
+<polygon fill="black" stroke="black" points="374.02,-319.6 371.29,-309.36 367.04,-319.07 374.02,-319.6"/>
+</g>
+<!-- warikan.domain.model.支払区分 -->
+<g id="node10" class="node">
+<title>warikan.domain.model.支払区分</title>
+<polygon fill="#eedd82" stroke="black" points="639,-82.82 567,-82.82 567,-46.82 639,-46.82 639,-82.82"/>
+<text text-anchor="middle" x="603" y="-64.12" font-family="Times,serif" font-size="14.00">支払区分</text>
+</g>
+<!-- warikan.domain.model.幹事&#45;&gt;warikan.domain.model.支払区分 -->
+<g id="edge4" class="edge">
+<title>warikan.domain.model.幹事&#45;&gt;warikan.domain.model.支払区分</title>
+<path fill="none" stroke="black" d="M404.21,-367.36C463.28,-362.49 600.17,-347.61 628,-312.82 679.74,-248.13 639.71,-141.36 616.53,-92.15"/>
+<polygon fill="black" stroke="black" points="619.66,-90.58 612.15,-83.11 613.36,-93.63 619.66,-90.58"/>
+</g>
+<!-- warikan.domain.model.幹事&#45;&gt;warikan.domain.model.参加者 -->
+<g id="edge3" class="edge">
+<title>warikan.domain.model.幹事&#45;&gt;warikan.domain.model.参加者</title>
+<path fill="none" stroke="black" d="M354.18,-352.26C325.56,-329.19 278.29,-284.98 262,-233.82 255.12,-212.22 249.69,-201.85 262,-182.82 275.45,-162.02 301.05,-150.74 322.98,-144.68"/>
+<polygon fill="black" stroke="black" points="323.88,-148.06 332.74,-142.24 322.19,-141.27 323.88,-148.06"/>
+</g>
+<!-- warikan.domain.model.支払区分比重設定 -->
+<g id="node14" class="node">
+<title>warikan.domain.model.支払区分比重設定</title>
+<polygon fill="#eedd82" stroke="black" points="619,-309.32 491,-309.32 491,-273.32 619,-273.32 619,-309.32"/>
+<text text-anchor="middle" x="555" y="-290.62" font-family="Times,serif" font-size="14.00">支払区分比重設定</text>
+</g>
+<!-- warikan.domain.model.幹事&#45;&gt;warikan.domain.model.支払区分比重設定 -->
+<g id="edge5" class="edge">
+<title>warikan.domain.model.幹事&#45;&gt;warikan.domain.model.支払区分比重設定</title>
+<path fill="none" stroke="black" d="M404.03,-357.63C431.03,-345.95 473.13,-327.73 506.02,-313.51"/>
+<polygon fill="black" stroke="black" points="507.68,-316.6 515.47,-309.42 504.9,-310.18 507.68,-316.6"/>
+</g>
+<!-- warikan.domain.model.飲み会&#45;&gt;warikan.domain.model.請求金額 -->
+<g id="edge12" class="edge">
+<title>warikan.domain.model.飲み会&#45;&gt;warikan.domain.model.請求金額</title>
+<path fill="none" stroke="black" d="M361.46,-273.23C352.04,-262.86 339.85,-249.46 329.4,-237.96"/>
+<polygon fill="black" stroke="black" points="331.81,-235.41 322.49,-230.36 326.63,-240.11 331.81,-235.41"/>
+</g>
+<!-- warikan.domain.model.飲み会&#45;&gt;warikan.domain.model.参加者支払い金額 -->
+<g id="edge10" class="edge">
+<title>warikan.domain.model.飲み会&#45;&gt;warikan.domain.model.参加者支払い金額</title>
+<path fill="none" stroke="black" d="M392.09,-273.23C401.25,-262.86 413.09,-249.46 423.24,-237.96"/>
+<polygon fill="black" stroke="black" points="425.95,-240.17 429.95,-230.36 420.71,-235.54 425.95,-240.17"/>
+</g>
+<!-- warikan.domain.model.飲み会&#45;&gt;warikan.domain.model.幹事 -->
+<g id="edge11" class="edge">
+<title>warikan.domain.model.飲み会&#45;&gt;warikan.domain.model.幹事</title>
+<path fill="none" stroke="black" d="M382.71,-309.36C383.75,-318.92 384.01,-331.08 383.49,-341.94"/>
+<polygon fill="black" stroke="black" points="379.98,-342 382.72,-352.23 386.96,-342.52 379.98,-342"/>
+</g>
+<!-- warikan.domain.model.飲み会&#45;&gt;warikan.domain.model.参加者 -->
+<g id="edge9" class="edge">
+<title>warikan.domain.model.飲み会&#45;&gt;warikan.domain.model.参加者</title>
+<path fill="none" stroke="black" d="M375.31,-273.12C372.73,-246.92 367.8,-196.76 364.71,-165.42"/>
+<polygon fill="black" stroke="black" points="368.17,-164.8 363.71,-155.19 361.2,-165.48 368.17,-164.8"/>
 </g>
 <!-- warikan.domain.model.Money -->
-<g id="node1" class="node">
+<g id="node11" class="node">
 <title>warikan.domain.model.Money</title>
-<polygon fill="#eedd82" stroke="#000000" points="139.0852,-89.8201 83.759,-89.8201 83.759,-46.82 139.0852,-46.82 139.0852,-89.8201"/>
-<text text-anchor="middle" x="111.4221" y="-74.6201" font-family="Times,serif" font-size="14.00" fill="#000000">通貨</text>
-<text text-anchor="middle" x="111.4221" y="-53.62" font-family="Times,serif" font-size="14.00" fill="#000000">Money</text>
+<polygon fill="#eedd82" stroke="black" points="326.66,-391.82 271.34,-391.82 271.34,-348.82 326.66,-348.82 326.66,-391.82"/>
+<text text-anchor="middle" x="299" y="-376.62" font-family="Times,serif" font-size="14.00">通貨</text>
+<text text-anchor="middle" x="299" y="-355.62" font-family="Times,serif" font-size="14.00">Money</text>
+</g>
+<!-- warikan.domain.model.参加者&#45;&gt;warikan.domain.model.支払区分 -->
+<g id="edge13" class="edge">
+<title>warikan.domain.model.参加者&#45;&gt;warikan.domain.model.支払区分</title>
+<path fill="none" stroke="black" d="M391.26,-122.15C394.19,-120.96 397.14,-119.83 400,-118.82 452.86,-100.24 515.48,-84.85 557.06,-75.53"/>
+<polygon fill="black" stroke="black" points="557.89,-78.93 566.89,-73.35 556.37,-72.1 557.89,-78.93"/>
+</g>
+<!-- warikan.domain.model.支払区分比重設定&#45;&gt;warikan.domain.model.支払比重 -->
+<g id="edge19" class="edge">
+<title>warikan.domain.model.支払区分比重設定&#45;&gt;warikan.domain.model.支払比重</title>
+<path fill="none" stroke="black" d="M556.78,-273.23C557.77,-263.66 559.03,-251.5 560.16,-240.64"/>
+<polygon fill="black" stroke="black" points="563.68,-240.67 561.23,-230.36 556.71,-239.95 563.68,-240.67"/>
+</g>
+<!-- warikan.domain.model.支払区分比重設定&#45;&gt;warikan.domain.model.支払区分 -->
+<g id="edge18" class="edge">
+<title>warikan.domain.model.支払区分比重設定&#45;&gt;warikan.domain.model.支払区分</title>
+<path fill="none" stroke="black" d="M577.85,-273.12C589.24,-263.07 601.86,-249.33 608,-233.82 626.48,-187.1 617.84,-127.22 610.2,-93.03"/>
+<polygon fill="black" stroke="black" points="613.6,-92.21 607.89,-83.28 606.79,-93.82 613.6,-92.21"/>
 </g>
 </g>
 </svg>
